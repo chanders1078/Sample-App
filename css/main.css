@@ -18,6 +18,10 @@ body {
 .header-section {
   background-color: #0c143a;
 }
+.header-section .navbar .navbar-brand .logo {
+  width: 100px;
+  height: 100%;
+}
 .header-section .navbar button {
   outline: none;
 }
@@ -74,7 +78,6 @@ body {
 .highlight-box {
   width: 25rem;
   background-color: #fff;
-  border: 2px solid #0c143a;
   box-shadow: 0px 0px 10px #464545;
   height: 23.5rem;
   font-family: "Poppins", sans-serif;
@@ -82,7 +85,15 @@ body {
   bottom: 1%;
   right: 1%;
 }
+.highlight-box .welcome-text h4 {
+  color: #fb0000;
+}
 
+@media (max-width: 768px) {
+  .highlight-box {
+    display: none;
+  }
+}
 /***********Highlight-Box***End******/
 /***********Footer-Section***********/
 footer {
@@ -90,6 +101,10 @@ footer {
   color: #C8D6AF;
   font-family: "Poppins", sans-serif;
 }
+footer .footer-section .text {
+  color: #fb0000;
+}
+
 /***********Footer-Section**End******/
 
 /*# sourceMappingURL=main.css.map */

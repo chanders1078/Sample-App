@@ -13,7 +13,10 @@ body {
     background-color: $mainbg-color;
     .navbar {
         .navbar-brand {
-            
+            .logo {
+                width: 100px;
+                height: 100%;
+            }
         }
         button {
             outline: none;
@@ -76,7 +79,9 @@ body {
                 font-weight: $light;
                 font-size: $s-font;
                 letter-spacing: 1px;
+                
             }
+            
         }
     }
 }
@@ -85,14 +90,22 @@ body {
 .highlight-box {
     width: 25rem;
     background-color: #fff  ;
-    border: 2px solid $mainbg-color;
     box-shadow: 0px 0px 10px rgb(70, 69, 69);
     height: 23.5rem;
     font-family: $main-font;
     position: fixed;
     bottom: 1%;
     right: 1%;
-
+    .welcome-text {
+        h4 {
+            color: #fb0000;
+        }
+    }
+}
+@media (max-width:768px){
+    .highlight-box {
+        display: none;
+    }
 }
 /***********Highlight-Box***End******/
 /***********Footer-Section***********/
@@ -101,7 +114,9 @@ footer {
     color: $main-color;
     font-family: $main-font;
     .footer-section {
-
+        .text {
+            color: #fb0000;
+        }
     }
 }
 

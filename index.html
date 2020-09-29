@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <!-- ---------Bootstrap-CDN-Links------ -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -17,12 +16,14 @@
         <!--==========Header-Section============ -->
         <section class="header-section px-5">
             <nav class="navbar navbar-expand-lg py-4">
-                <a class="navbar-brand" href="#">Logo</a>
+                <a class="navbar-brand" href="index.html">
+                    <img class="w-100" src="img/logo.jpeg" alt="BikeDekho/">
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="bars"><i class="fa fa-bars fa-2x"></i></span>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto text-center">
                         <li class="nav-item px-4">
                           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
@@ -44,12 +45,12 @@
         <section class="main-section px-5 py-5">
             <div class="row  ">
                 <div class="col-sm-3">
-                    <div class="side-bar pl-3 ">
+                    <div class="side-bar  pl-3 ">
                         <ul class="list-unstyled">
-                            <li class="py-3"><a href="#">Hero Bikes</a></li>
-                            <li class="py-3"><a href="#">Tvs Bikes</a></li>
-                            <li class="py-3"><a href="#">Honda Bikes</a></li>
-                            <li class="py-3"><a href="#">Suzuki Bikes</a></li>
+                            <li class="py-3"><a href="https://www.heromotocorp.com/en-in/">Hero Bikes</a></li>
+                            <li class="py-3"><a href="https://www.heromotocorp.com/en-in/">Tvs Bikes</a></li>
+                            <li class="py-3"><a href="https://www.honda2wheelersindia.com/">Honda Bikes</a></li>
+                            <li class="py-3"><a href="https://www.suzukimotorcycle.co.in/">Suzuki Bikes</a></li>
                         </ul>
                     </div>
                 </div>
@@ -58,7 +59,7 @@
                         <div class="row ">
                             <div class="col-sm-4">
                                 <div class="img-box">
-                                    <img class="w-100" src="img/img1" alt="Bike-Image"/>
+                                    <img class="w-100" src="img/hero.jpeg" alt="Bike-Image"/>
                                 </div>
                             </div>
                             <div class="col-sm-8">
@@ -71,7 +72,7 @@
                         <div class="row pt-4 ">
                             <div class="col-sm-4">
                                 <div class="img-box">
-                                    <img class="w-100" src="img/img1" alt="Bike-Image"/>
+                                    <img class="w-100" src="img/Tvs.jpeg" alt="Bike-Image"/>
                                 </div>
                             </div>
                             <div class="col-sm-8">
@@ -92,7 +93,7 @@
                         <div class="row pt-4 ">
                             <div class="col-sm-4">
                                 <div class="img-box">
-                                    <img class="w-100" src="img/img1" alt="Bike-Image"/>
+                                    <img class="w-100" src="img/honda.jpeg" alt="Bike-Image"/>
                                 </div>
                             </div>
                             <div class="col-sm-8">
@@ -105,7 +106,7 @@
                         <div class="row pt-4 ">
                             <div class="col-sm-4">
                                 <div class="img-box">
-                                    <img class="w-100" src="img/img1" alt="Bike-Image"/>
+                                    <img class="w-100" src="img/suzuki.jpeg" alt="Bike-Image"/>
                                 </div>
                             </div>
                             <div class="col-sm-8">
@@ -121,14 +122,30 @@
         </section>
         <!-- =========Main-Section=======End==== -->
         <div class="highlight-box">
-            <div class="welcome-text m-2  text-center">
-                <h4 class="border-bottom py-2">Welcome To BikeDekho</h4>
+            <div class="welcome-text m-2 p-2  text-center">
+                <h4 class=" py-2">Welcome To BikeDekho</h4>
+                <h5 >
+                    Get Quotation
+                </h5>
+                <input type="text" placeholder="Name" class="form-control w-100">
+                <br/>
+                <input type="Mobile" placeholder="Mobile" class="form-control w-100">
+                <br/>
+                <input type="email" placeholder="Email" class="form-control w-100">
+                <br/>
+                <button class="btn btn-primary w-100">Submit</button>
             </div>
         </div>
         <!-- =========Footer-Section============ -->
         <footer class="px-5">
             <div class="footer-section text-center py-4">
-                <h3>footer</h3>
+                <p class="mt-2">
+                    Copyright
+                    <i class="fa fa-copyright" aria-hidden="true"></i>
+                    2020 | 
+                    All Rights Reserved
+                    <span class="text">BikeDekho</span>
+                </p>
             </div>
         </footer>
         <!-- =========Footer-Section=====End==== -->
