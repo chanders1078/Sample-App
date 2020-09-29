@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+/*****Bg-Color**********/
+/******Font-Color********/
+/******Font-Family******/
+/*****Font-Size*********/
+/*****Font-Weight********/
+html {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: "Poppins", sans-serif;
+}
+
+/***********Main-section************/
+.header-section {
+  background-color: #0c143a;
+}
+.header-section .navbar button {
+  outline: none;
+}
+.header-section .navbar button .bars {
+  color: #ffff;
+}
+.header-section .navbar ul li a {
+  color: #C8D6AF;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+.header-section .navbar ul li a:hover {
+  border: 1px solid #C8D6AF;
+  border-radius: 5px;
+  background: #C8D6AF;
+  color: #0c143a;
+  font-family: "Poppins", sans-serif;
+}
+
+/***********Main-Section*************/
+.main-section {
+  background: #40dbd7;
+}
+.main-section .side-bar ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #0c143a;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1.5px;
+}
+.main-section .side-bar ul li:hover {
+  border-bottom: 2px solid #0c143a;
+  color: #0c143a;
+  font-family: "Poppins", sans-serif;
+}
+.main-section .content-box .text h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #0c143a;
+}
+.main-section .content-box .text p {
+  color: #0c143a;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+/***********Main-Section**End********/
+/***********Highlight-Box************/
+.highlight-box {
+  width: 25rem;
+  background-color: #fff;
+  border: 2px solid #0c143a;
+  box-shadow: 0px 0px 10px #464545;
+  height: 23.5rem;
+  font-family: "Poppins", sans-serif;
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+}
+
+/***********Highlight-Box***End******/
+/***********Footer-Section***********/
+footer {
+  background-color: #0c143a;
+  color: #C8D6AF;
+  font-family: "Poppins", sans-serif;
+}
+/***********Footer-Section**End******/
+
+/*# sourceMappingURL=main.css.map */

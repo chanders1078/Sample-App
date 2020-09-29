@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/*****Bg-Color**********/
+$mainbg-color :rgb(12, 20, 58);
+$secondbg-color : rgb(64, 219, 215);
+
+/******Font-Color********/
+$main-color : #C8D6AF;
+$second-color : #A239CA;
+
+/******Font-Family******/
+$main-font : 'Poppins', sans-serif;
+
+/*****Font-Size*********/
+$l-font: 40px;
+$m-font: 20px;
+$s-font: 16px;
+/*****Font-Weight********/
+$heavy : 800;
+$light : 400;
+
+@mixin hover {
+    
+}
